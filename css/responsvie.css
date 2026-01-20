@@ -1,0 +1,43 @@
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+@media (max-width: 767.98px) {
+  .navbar-expand-lg {
+    background-color: var(--light-color) !important;
+  }
+  .navbar-brand{
+  font-style: italic !important;
+  color: var(--dark-color) !important;
+}
+.hero-section{
+  text-align: center;
+  background-position: center;
+}
+.hero-content-wrap h1{
+  font-size: 30px;
+}
+.service-section{
+  text-align: center;
+}
+.services-card{
+  margin-bottom: 24px;
+}
+.truser-image{
+  display: none;
+}
+.truster-section{
+  text-align: center;
+}
+.footer-link {
+    padding-left: 0px;
+    border-left: 0px solid #584f4f;
+    margin-left: 0px;
+}
+.navbar-nav .nav-item .nav-link {
+    font-size: 14px !important;
+    color: var(--dark-color) !important;
+}
+}
